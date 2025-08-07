@@ -13,11 +13,11 @@
             "name": "llm-mistralai-container",
             "image": "252226608135.dkr.ecr.ap-south-1.amazonaws.com/mistralai_llm_model_demo:latest",
             "command": ["/app/entrypoint.sh"],
-            "args": [$Prompt],
+            "args": [""],
             "env": [
               {
                 "name": "HUGGINGFACE_TOKEN",
-                "value": $Hugging_Face_Secret
+                "value": ""
               }
             ],
             "resources": {
