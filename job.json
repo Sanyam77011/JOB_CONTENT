@@ -3,7 +3,7 @@
   "kind": "Job",
   "metadata": {
     "name": "llm-job-mistralai",
-    "namespace": "tenant-ns-1"
+    "namespace": "tanent-1"
   },
   "spec": {
     "template": {
